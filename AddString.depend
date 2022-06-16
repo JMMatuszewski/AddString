@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1655151970 source:d:\repos\addstring\validation.cpp
+	"Validation.h"
+
+1655150457 d:\repos\addstring\validation.h
+	<iostream>
+	<regex>
+
+1655196914 source:d:\repos\addstring\main.cpp
+	<iostream>
+	"Validation.h"
+	"AddString.h"
+
+1655386419 source:d:\repos\addstring\addstring.cpp
+	"AddString.h"
+
+1655387072 d:\repos\addstring\addstring.h
+	<iostream>
+	"FileOperations.h"
+
+1655386998 source:d:\repos\addstring\fileoperations.cpp
+	"FileOperations.h"
+
+1655386419 d:\repos\addstring\fileoperations.h
+	<iostream>
+
