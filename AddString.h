@@ -10,13 +10,16 @@ class AddString
 
     int PARAMS;
     const char *METHOD;
-    const string FILENAME;
-    void openFile();//char *str[] | char * method
+    void openFile();
+    void closeFile();
 public:
-    AddString(int params, char * method, string fileName)//, char *strings[]|char *strings[]
-    : PARAMS(params), METHOD(method), FILENAME(fileName)// , STRINGS(*strings
-    {
-        openFile();//strings | METHOD, FILENAME
-    };
+    AddString(int params, char * method, string fileName)
+    : PARAMS(params), METHOD(method), fileOperations(fileName) {
 
+        openFile();
+    };
+    ~AddString(){
+        closeFile();
+    }
+    void writeFile(int argc, char * argv[]);
 };

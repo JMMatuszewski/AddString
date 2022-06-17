@@ -1,20 +1,38 @@
 #include "AddString.h"
 
-void AddString::openFile()// char *str[] | char * method, char * fileName
+void AddString::openFile()
 {
-    /*
-    cout << "method: " << METHOD << endl;
-    cout << "fileName: " << FILENAME << endl;
-    cout << "params: " << PARAMS << endl;
-    for(int i=0;i<PARAMS;i++)
-    {
-        cout << "string: " << str[i] << endl;
-    }*/
-
     if ((*METHOD) == '1')
     {
-        cout << "FILENAME: " << FILENAME << endl;
-        fileOperations.openWin(FILENAME);
+        fileOperations.openWin();
+    }
+    else if((*METHOD) == '0')
+    {
+        fileOperations.openLin();
+    }
+}
+
+void AddString::writeFile(int argc, char * argv[])
+{
+    if ((*METHOD) == '1')
+    {
+        fileOperations.writeWin(argc,argv);
+    }
+    else if((*METHOD) == '0')
+    {
+        fileOperations.writeLin(argc,argv);
     }
 
+}
+
+void AddString::closeFile()
+{
+    if ((*METHOD) == '1')
+    {
+        fileOperations.closeWin();
+    }
+    else if((*METHOD) == '0')
+    {
+        fileOperations.closeLin();
+    }
 }

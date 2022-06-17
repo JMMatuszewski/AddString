@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="AddString.cpp" />
 		<Unit filename="AddString.h" />
+		<Unit filename="File.cpp" />
+		<Unit filename="File.h" />
 		<Unit filename="FileOperations.cpp" />
 		<Unit filename="FileOperations.h" />
 		<Unit filename="Validation.cpp" />

@@ -6,21 +6,33 @@
 	<iostream>
 	<regex>
 
-1655196914 source:d:\repos\addstring\main.cpp
+1655482578 source:d:\repos\addstring\main.cpp
 	<iostream>
 	"Validation.h"
 	"AddString.h"
 
-1655386419 source:d:\repos\addstring\addstring.cpp
+1655481439 source:d:\repos\addstring\addstring.cpp
 	"AddString.h"
 
-1655387072 d:\repos\addstring\addstring.h
+1655468750 d:\repos\addstring\addstring.h
 	<iostream>
 	"FileOperations.h"
 
-1655386998 source:d:\repos\addstring\fileoperations.cpp
+1655482165 source:d:\repos\addstring\fileoperations.cpp
 	"FileOperations.h"
 
-1655386419 d:\repos\addstring\fileoperations.h
+1655481825 d:\repos\addstring\fileoperations.h
 	<iostream>
+	<fstream>
+	<sys/types.h>
+	<sys/stat.h>
+	<fcntl.h>
+	<unistd.h>
+	"File.h"
+
+1655396483 d:\repos\addstring\file.h
+	<iostream>
+
+1655389662 source:d:\repos\addstring\file.cpp
+	"File.h"
 
